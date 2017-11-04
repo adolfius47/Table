@@ -6,7 +6,7 @@ import Routing from './router'
 import 'react-select/dist/react-select.css';
 import './style/style.scss'
 
-const id = 'contact-list'
+const id = 'table'
 const app = document.getElementById(id)
 if (!app) throw 'Element was not found: ' + id
 
