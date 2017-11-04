@@ -1,8 +1,8 @@
 "use strict";
 import React from "react";
 import {hashHistory, IndexRoute, Route, Router} from "react-router";
-import App from './Components/App'
-import Posts from './Components/Posts'
+import App from './components/App'
+import Posts from './components/Posts'
 const createRouter = (getState, dispatch) => {
 
 

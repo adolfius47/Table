@@ -10,6 +10,14 @@ const data = (previousState = [], action = {}) => {
             let newState=previousState.concat(action.payload)
             localStorage.setItem('posts', JSON.stringify(newState));
             return newState
+            case Action.DELETE_POST:
+            newState=previousState.filter(item=>{
+                if(item.id!==action.payload){
+                    return true
+                }
+            })
+            localStorage.setItem('posts', JSON.stringify(newState));
+            return newState
         default:
             return previousState;
 

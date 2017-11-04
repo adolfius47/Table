@@ -4,6 +4,7 @@ import {render} from 'react-dom'
 import store from './store'
 import Routing from './router'
 import 'react-select/dist/react-select.css';
+import './style/style.scss'
 
 const id = 'contact-list'
 const app = document.getElementById(id)
