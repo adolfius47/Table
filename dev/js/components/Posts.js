@@ -244,38 +244,38 @@
                                	 		<tr>
                                	 			<th	onClick={this.sortTable.bind(this,'firstName')}>
                                	 			First Name
-                               	 			{keyWord==="firstName"&&predicat==="asc"?
-                               	 			<i className="glyphicon glyphicon-triangle-top"/>:
-                               	 			keyWord==="firstName"&&predicat==="desc"?
-                               	 			<i className="glyphicon glyphicon-triangle-bottom"/>:null}
+                               	 				{keyWord==="firstName"&&predicat==="asc"?
+                               	 				<i className="glyphicon glyphicon-triangle-top"/>:
+                               	 				keyWord==="firstName"&&predicat==="desc"?
+                               	 				<i className="glyphicon glyphicon-triangle-bottom"/>:null}
                                	 			</th>
                                	 			<th onClick={this.sortTable.bind(this,'lastName')}>
                                	 			Last Name
-                               	 			{keyWord==="lastName"&&predicat==="asc"?
-                               	 			<i className="glyphicon glyphicon-triangle-top"/>:
-                               	 			keyWord==="lastName"&&predicat==="desc"?
-                               	 			<i className="glyphicon glyphicon-triangle-bottom"/>:null}
+                               	 				{keyWord==="lastName"&&predicat==="asc"?
+                               	 				<i className="glyphicon glyphicon-triangle-top"/>:
+                               	 				keyWord==="lastName"&&predicat==="desc"?
+                               	 				<i className="glyphicon glyphicon-triangle-bottom"/>:null}
                                	 			</th>
                                	 			<th onClick={this.sortTable.bind(this,'gender')}>
                                	 			Gender
-                               	 			{keyWord==="gender"&&predicat==="asc"?
-                               	 			<i className="glyphicon glyphicon-triangle-top"/>:
-                               	 			keyWord==="gender"&&predicat==="desc"?
-                               	 			<i className="glyphicon glyphicon-triangle-bottom"/>:null}
+                               	 				{keyWord==="gender"&&predicat==="asc"?
+                               	 				<i className="glyphicon glyphicon-triangle-top"/>:
+                               	 				keyWord==="gender"&&predicat==="desc"?
+                               	 				<i className="glyphicon glyphicon-triangle-bottom"/>:null}
                                	 			</th>
                                	 			<th onClick={this.sortTable.bind(this,'age')}>
                                	 			Age
-                               	 			{keyWord==="age"&&predicat==="asc"?
-                               	 			<i className="glyphicon glyphicon-triangle-top"/>:
-                               	 			keyWord==="age"&&predicat==="desc"?
-                               	 			<i className="glyphicon glyphicon-triangle-bottom"/>:null}
+                               	 				{keyWord==="age"&&predicat==="asc"?
+                               	 				<i className="glyphicon glyphicon-triangle-top"/>:
+                               	 				keyWord==="age"&&predicat==="desc"?
+                               	 				<i className="glyphicon glyphicon-triangle-bottom"/>:null}
                                	 			</th>
                                	 			<th onClick={this.sortTable.bind(this,'phone')}>
                                	 			Phone
-                               	 			{keyWord==="phone"&&predicat==="asc"?
-                               	 			<i className="glyphicon glyphicon-triangle-top"/>:
-                               	 			keyWord==="phone"&&predicat==="desc"?
-                               	 			<i className="glyphicon glyphicon-triangle-bottom"/>:null}
+                               	 				{keyWord==="phone"&&predicat==="asc"?
+                               	 				<i className="glyphicon glyphicon-triangle-top"/>:
+                               	 				keyWord==="phone"&&predicat==="desc"?
+                               	 				<i className="glyphicon glyphicon-triangle-bottom"/>:null}
                                	 			</th>
                                	 			<th>#</th>
                                	 			</tr>
